@@ -14,13 +14,21 @@ public class Main {
 
             if (type == 1) {
                 //RBB triplet
-                
+                Hex h = new Hex();
+                String res = sb.nextLine();
+
 
             } else if (type == 2) {
                 //Hexadecimal
+                Colors c = new Colors();
+                System.out.println("Enter hexadecimal code");
+                String answer = sb.nextLine();
 
             } else if (type == 3) {
                 //Color name
+                Colors c = new Colors();
+                System.out.println("Enter any color name");
+                String code = sb.nextLine();
 
             } else {
                 System.out.println("Oops! Try again");
